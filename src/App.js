@@ -26,7 +26,7 @@ function App() {
           <IconButton edge="start" color="inherit" aria-label = "menu" className={classes.menuButton}>
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6"className={classes.title}>Мой сайт на React</Typography>
+          <Typography variant="h6"className={classes.title}>Мой сайт на React, изменение 1</Typography>
           <Box mr={3}>
             <Button color="inherit" variant="outlined">Log In</Button>
           </Box>
