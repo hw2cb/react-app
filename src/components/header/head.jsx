@@ -7,22 +7,22 @@ import StyleCss from "../header/header.module.css"
 function Head()
 {
     return (
-        <header>
+    <header>
         <div className={StyleCss.content}>
-            <div className="logo">
+            <div className={StyleCss.logo}>
                 <div className="image">
                     <img src={logo}/>
                 </div>
-                <div className="title">
+                <div className={StyleCss.title}>
                 Саратовский государственный университет имени Гагарина Ю. А.
                 </div>
             </div>
-            <div className="contact">
-                <div>
+            <div className={StyleCss.contact}>
+
                     <div className="phone">
                     +7 (8452) 99-87-34
                     </div>
-                    <div className="icons">
+                    <div className={StyleCss.icons}>
                         <div className="facebook-icon">
                             <img src={fbIcon}/>
                         </div>
@@ -33,9 +33,8 @@ function Head()
                             <img src={instaIcon}/>
                         </div>
                     </div>
-                </div>
             </div>
-            <div className="info">
+            <div className={StyleCss.info}>
                 <div className="title">
                 Сведения об образовательной 
 организации
