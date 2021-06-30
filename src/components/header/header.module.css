@@ -1,6 +1,9 @@
 header{
     background-color: #8CC754;
 }
+a{
+    color:white;
+}
 .content{
     justify-content: space-between;
     padding: 30px 65px;
@@ -8,21 +11,26 @@ header{
     font-family: "Montserrat";
     display: flex;
 }
-.logo{
-    display: flex;
-    align-items: center;
-}
-.contact{
+.container{
     display: flex;
     align-items: center;
 }
 .icons{
+    margin-left: 31px;
     display: flex;
 }
-.info{
-    display:flex;
+.icon{
+    margin-left: 13px;
+    margin-right: 13px;
 }
 .title{
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 8px;
+}
+.nameTitle{
+    max-width: 326px;
+}
+.infoTitle{
+    max-width: 269px;
+    margin-right: 80px;
 }
