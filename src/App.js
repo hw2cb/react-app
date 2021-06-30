@@ -1,9 +1,10 @@
 
 import React from 'react';
-import Head from './components/header/head';
+import Header from './components/header/head';
 
 function App() {
   return (
-  <Head></Head>);
+    <Header />
+  )
 }
 export default App;
