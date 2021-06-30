@@ -24,7 +24,7 @@ const LogoNav = () => {
                             <a className={StyleCss.navButton} href="">Дополнительное образование</a>
                         </li>
                         <li>
-                            <a className={StyleCss.navButton} href="">Детская компьютерная школа</a>
+                            <a className={`${StyleCss.navButton} ${StyleCss.selected}`} href="">Детская компьютерная школа</a>
                         </li>
                     </ul>
                 </div>
