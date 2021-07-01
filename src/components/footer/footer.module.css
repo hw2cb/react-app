@@ -9,15 +9,14 @@ footer{
 }
 
 a{
-    color: white;
     text-decoration: none;
 }
 
-a:hover{
-    color: #FBFBFB;
-} 
+.aboutOfUs a:hover{
+    color: #DB538C;
+}
 
-button:hover{
+.btn button:hover{
     background: #DB538C;
 }
 

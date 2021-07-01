@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./Banner.module.css"
+import styles from "./Banner.module.css";
 
 
 const Banner = () => {
@@ -24,4 +24,4 @@ const Banner = () => {
 }
 
 
-export default Banner
+export default Banner;

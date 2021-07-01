@@ -19,7 +19,7 @@ const Footer = () => {
                     <input className = {StyleCss.email} type = "E-mail" placeholder = "*E-mail"/>
                     <input className = {StyleCss.message} type = "Сообщение" placeholder = "Сообщение..."/>
                 </div> 
-                <button className = {StyleCss.send}><a href = "#"> Отправить </a></button>
+                <div className = {StyleCss.btn}><button className = {StyleCss.send}><a href = "#"> Отправить </a></button></div>
             </div>
             <div className = {StyleCss.other}>
                 <div className = {StyleCss.otherInfo}>

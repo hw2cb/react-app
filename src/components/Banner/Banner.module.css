@@ -21,11 +21,13 @@ button{
     text-align: center;
     
 }
+
 .content{
     margin-left: 65px;
     display: inline-flex;
     flex-direction: column;
 }
+
 button:hover{
     background-color: #FFFFFF;
     color:#8CC754;
