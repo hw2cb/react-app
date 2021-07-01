@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Banner.module.css"
-import banner2 from "../image/banner2.svg";
+
 
 const Banner = () => {
     return (
@@ -19,7 +19,6 @@ const Banner = () => {
                 </div>
             </div>
             <br></br>
-            {/*<img src={banner2}/> раскоментите эту дичь и посмотрите на это, я хз чо с этим делать*/ } 
         </section>
     )
 }
