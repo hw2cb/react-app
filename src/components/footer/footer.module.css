@@ -1,0 +1,137 @@
+footer{
+    background-color: #8CC754;
+    margin-top: 500px;
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    color:white;
+    font-family: "Montserrat";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FBFBFB;
+} 
+
+button:hover{
+    background: #DB538C;
+}
+
+input{
+    outline: none;
+}
+
+.info{
+    padding: 3%;
+    margin-left: 20px;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    line-height: 45px;
+}
+
+.ccs{
+    padding-top: 10px;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-left: 20px;
+}
+
+.questions{
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+}
+
+.name{
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    color: #444;
+    width: 526px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.phone{
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    color: #444;
+    width: 526px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.email{
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    color: #444;
+    width: 526px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.message{
+    padding-left: 1%;
+    border-radius: 10px;
+    border: none;
+    color: #444;
+    width: 540px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.send{
+    padding: 1%;
+    padding-bottom: 1.9%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #D4D4D4;
+    color: white;
+    width: 557px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.map{
+    margin-right: 21px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.otherInfo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    grid-auto-rows: minmax(70px, auto);
+    text-align: center;
+    margin-left: 540px;
+}
+
+.material{
+    margin-top: -150px;
+}
+
+@media (min-width: 420px){}
+@media (min-width: 760px){}
+@media (max-width: 1200px){}
