@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.c08ce8ff.chunk.css",
-    "main.js": "/react-app/static/js/main.d3ef5d07.chunk.js",
-    "main.js.map": "/react-app/static/js/main.d3ef5d07.chunk.js.map",
-    "runtime-main.js": "/react-app/static/js/runtime-main.a6788c02.js",
-    "runtime-main.js.map": "/react-app/static/js/runtime-main.a6788c02.js.map",
-    "static/js/2.e076af17.chunk.js": "/react-app/static/js/2.e076af17.chunk.js",
-    "static/js/2.e076af17.chunk.js.map": "/react-app/static/js/2.e076af17.chunk.js.map",
-    "static/js/3.5c1fc3fc.chunk.js": "/react-app/static/js/3.5c1fc3fc.chunk.js",
-    "static/js/3.5c1fc3fc.chunk.js.map": "/react-app/static/js/3.5c1fc3fc.chunk.js.map",
+    "main.css": "/react-app/static/css/main.9a61d765.chunk.css",
+    "main.js": "/react-app/static/js/main.59fd6182.chunk.js",
+    "main.js.map": "/react-app/static/js/main.59fd6182.chunk.js.map",
+    "runtime-main.js": "/react-app/static/js/runtime-main.7fc8e9db.js",
+    "runtime-main.js.map": "/react-app/static/js/runtime-main.7fc8e9db.js.map",
+    "static/js/2.49fd4c57.chunk.js": "/react-app/static/js/2.49fd4c57.chunk.js",
+    "static/js/2.49fd4c57.chunk.js.map": "/react-app/static/js/2.49fd4c57.chunk.js.map",
+    "static/js/3.2469d1f7.chunk.js": "/react-app/static/js/3.2469d1f7.chunk.js",
+    "static/js/3.2469d1f7.chunk.js.map": "/react-app/static/js/3.2469d1f7.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "static/css/main.c08ce8ff.chunk.css.map": "/react-app/static/css/main.c08ce8ff.chunk.css.map",
-    "static/js/2.e076af17.chunk.js.LICENSE.txt": "/react-app/static/js/2.e076af17.chunk.js.LICENSE.txt",
+    "static/css/main.9a61d765.chunk.css.map": "/react-app/static/css/main.9a61d765.chunk.css.map",
+    "static/js/2.49fd4c57.chunk.js.LICENSE.txt": "/react-app/static/js/2.49fd4c57.chunk.js.LICENSE.txt",
+    "static/media/Banner.module.css": "/react-app/static/media/banner.876519a7.svg",
     "static/media/facebook.7173676a.svg": "/react-app/static/media/facebook.7173676a.svg",
     "static/media/glas.f7c62a86.svg": "/react-app/static/media/glas.f7c62a86.svg",
     "static/media/inst.206da18a.svg": "/react-app/static/media/inst.206da18a.svg",
     "static/media/logo.9eb3bc3c.svg": "/react-app/static/media/logo.9eb3bc3c.svg",
     "static/media/logodksh.5f2ae520.svg": "/react-app/static/media/logodksh.5f2ae520.svg",
+    "static/media/map.2039abf9.svg": "/react-app/static/media/map.2039abf9.svg",
     "static/media/vk.0e00453c.svg": "/react-app/static/media/vk.0e00453c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6788c02.js",
-    "static/js/2.e076af17.chunk.js",
-    "static/css/main.c08ce8ff.chunk.css",
-    "static/js/main.d3ef5d07.chunk.js"
+    "static/js/runtime-main.7fc8e9db.js",
+    "static/js/2.49fd4c57.chunk.js",
+    "static/css/main.9a61d765.chunk.css",
+    "static/js/main.59fd6182.chunk.js"
   ]
 }
