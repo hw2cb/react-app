@@ -1,0 +1,26 @@
+section{
+    font-family: "Montserrat";
+}
+
+.whoIsThisCourseFor h1{
+    font-size: 45px;
+    padding-left: 6%;
+    color: #F6B028;
+}
+
+.description h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DB538C;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    color: #BD67D5;
+}

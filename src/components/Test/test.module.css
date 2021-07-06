@@ -1,25 +1,11 @@
-.questions button{
-    margin-top: 10px;
-    margin-bottom: 70px;
-}
-
 .question{
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    color: #8CC754;
-    font-size: 20px;
+    color: #fff;
+    font-size: 40px;
     padding-top: 60px;
     padding-bottom: 50px;
-}
-
-.questions{
-    display: flex;
-    justify-content: center;
-    line-height: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #8CC754;
-    font-size: 15px;
-    grid-column-gap: 40px;
+    background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
 }

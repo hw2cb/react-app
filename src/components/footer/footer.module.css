@@ -1,10 +1,9 @@
 footer{
     background-color: #8CC754;
-    margin-top: 500px;
     position: absolute;
     left: 0;
     min-width: 100%;
-    color:white;
+    color: white;
     font-family: "Montserrat";
 }
 
