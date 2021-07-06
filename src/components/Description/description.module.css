@@ -5,7 +5,7 @@ section{
 .whoIsThisCourseFor h1{
     font-size: 45px;
     padding-left: 6%;
-    color: #F6B028;
+    color: #8CC754;
 }
 
 .description h2{
@@ -13,6 +13,7 @@ section{
     justify-content: center;
     align-items: center;
     color: #DB538C;
+    line-height: 40px;
 }
 
 .description{
