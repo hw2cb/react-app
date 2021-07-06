@@ -12,12 +12,12 @@ a{
     text-decoration: none;
 }
 
-.aboutOfUs a:hover{
+.item a:hover{
     color: #DB538C;
 }
 
 .btn button:hover{
-    background: #DB538C;
+    background: #D4D4D4;
 }
 
 input{
@@ -40,7 +40,7 @@ input{
 
 .ccs{
     padding-top: 10px;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
     padding-left: 3%;
     margin-left: 20px;
 }
@@ -104,7 +104,7 @@ input{
     text-align: center;
     border-radius: 10px;
     border: none;
-    background-color: #D4D4D4;
+    background-color: #F6B028;
     color: white;
     width: 557px;
     height: 10px;
@@ -119,16 +119,42 @@ input{
 }
 
 .otherInfo{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px;
-    grid-auto-rows: minmax(70px, auto);
-    text-align: center;
-    margin-left: 540px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+    margin-top: -50px;
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+	flex: 1;
+	height: 48%;
+    margin-left: 800px;
+}
+
+.item + .item{
+	margin-left: -180px;
 }
 
 .material{
-    margin-top: -150px;
+    margin-top: -180px;
+    line-height: 45px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    float: left;
+}
+
+.icon{
+    margin-top: 10px;
+    margin-right: 70px;
+    float: left;
+    margin-left: -50px;
 }
 
 @media (min-width: 420px){}
