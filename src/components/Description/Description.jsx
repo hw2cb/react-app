@@ -5,7 +5,7 @@ const Description = () => {
     return (
         <section>
             <div className = {StyleCss.whoIsThisCourseFor}>
-                <h1> Для кого этот курс? </h1>
+                <h1> Для кого этот тест? </h1>
             </div>
             <div className = {StyleCss.description}>
                 <h2> Прежде всего для людей, 
