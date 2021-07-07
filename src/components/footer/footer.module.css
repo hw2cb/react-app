@@ -155,7 +155,10 @@ input{
     float: left;
     margin-left: -50px;
 }
-
+.googleMap
+{
+    border-radius: 10px;
+}
 @media (min-width: 420px){}
 @media (min-width: 760px){}
 @media (max-width: 1200px){}
