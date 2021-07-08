@@ -1,20 +1,20 @@
-
 import React from 'react';
 import Header from './components/header/Header';
 import Logo from'./components/LogoNav/LogoNavigation';
 import Banner from './components/Banner/Banner';
 import Description from './components/Description/Description';
-import Test from './components/Test/Test';
 import Footer from './components/footer/Footer';
+import QuizContainer from './components/Quiz/QuizContainer';
 
-function App() {
+
+const App = () => {
   return (
     <div>
         <Header />
         <Logo />
         <Banner />
         <Description />
-        <Test/>
+        <QuizContainer />
         <Footer/>
     </div>
   )
