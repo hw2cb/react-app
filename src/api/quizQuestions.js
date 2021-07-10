@@ -1,86 +1,92 @@
 const quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "Сколько лет ребёнку?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                type: "7-9",
+                content: "7-9"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                type: "10-12",
+                content: "10-12"
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                type: "13-17",
+                content: "13-17"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "Ходил ли ребёнок уже в ДКШ?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                type: "Да",
+                content: "Да"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
-            },
-            {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "Нет",
+                content: "Нет"
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "Какие курсы посещал ребенок?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Forza"
-            },
-            {
-                type: "Nintendo",
-                content: "Mario Kart"
-            },
-            {
-                type: "Sony",
-                content: "Gran Turismo"
+                type: "Список курсов",
+                content: "Список курсов"
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "Какие направленности интересуют ребенка?",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                type: "Творческое",
+                content: "Творческое"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
-            },
-            {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                type: "Программирование",
+                content: "Программирование"
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "Хотели бы вы заниматься очно или дистанционно?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box One"
+                type: "Очно",
+                content: "Очно"
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                type: "Дистанционно",
+                content: "Дистанционно"
+            }
+        ]
+    },
+    {
+        question: "Интересуется ли ребенок компьютерными играми?",
+        answers: [
+            {
+                type: "Да, интересуется",
+                content: "Да, интересуется"
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
+                type: "Нет, не интересуется",
+                content: "Нет, не интересуется"
+            }
+        ]
+    },
+    {
+        question: "Хочет ли ребенок заниматься компьютерной графикой? (Рисовать на компьютере)",
+        answers: [
+            {
+                type: "Да",
+                content: "Да"
+            },
+            {
+                type: "Нет",
+                content: "Нет"
             }
         ]
     }
