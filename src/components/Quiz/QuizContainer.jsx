@@ -21,25 +21,11 @@ class QuizContainer extends React.Component {
     }
 
     componentDidMount() {
-        const shuffledAnswerOptions = quizQuestions.map(question =>
-            this.shuffleArray(question.answers)
-        );
+        const AnswerOptions = quizQuestions.map(question => (question.answers));
         this.setState({
             question: quizQuestions[0].question,
-            answerOptions: shuffledAnswerOptions[0]
+            answerOptions: AnswerOptions[0]
         });
-    }
-
-    shuffleArray(array) {
-        let currentIndex = array.length, temporaryValue, randomIndex;
-        while (0 !== currentIndex) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
-        return array;
     }
 
     handleAnswerSelected(event) {
@@ -53,7 +39,7 @@ class QuizContainer extends React.Component {
     }
 
     setUserAnswer(answer) {
-        this.setState((state, props) => ({
+        this.setState((state) => ({
             answersCount: {
                 ...state.answersCount,
                 [answer]: (state.answersCount[answer] || 0) + 1
@@ -88,25 +74,25 @@ class QuizContainer extends React.Component {
         if (result.length === 1) {
             this.setState({ result: result[0] });
         } else {
-            this.setState({ result: 'Undetermined' });
+            this.setState({ result: 'wut?' });
         }
     }
 
     renderQuiz() {
         return (
             <Quiz
-                answer = {this.state.answer}
-                answerOptions = {this.state.answerOptions}
-                questionId = {this.state.questionId}
-                question = {this.state.question}
-                questionTotal = {quizQuestions.length}
-                onAnswerSelected = {this.handleAnswerSelected}
+                answer={this.state.answer}
+                answerOptions={this.state.answerOptions}
+                questionId={this.state.questionId}
+                question={this.state.question}
+                questionTotal={quizQuestions.length}
+                onAnswerSelected={this.handleAnswerSelected}
             />
         );
     }
 
     renderResult() {
-        return <Result quizResult = {this.state.result} />;
+        return <Result quizResult={this.state.result} />;
     }
 
     render() {

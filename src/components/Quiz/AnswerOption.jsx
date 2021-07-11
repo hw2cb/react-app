@@ -1,7 +1,7 @@
 import React from 'react';
 import StyleCss from './quiz.module.css';
 
-const AnswerOption = (props) => {
+const AnswerOption = (props) => { 
   return (
     <li className = "answerOption">
       <input
@@ -12,7 +12,7 @@ const AnswerOption = (props) => {
         id = {props.answerType}
         value = {props.answerType}
         disabled = {props.answer}
-        onChange = {props.onAnswerSelected}
+        onClick = {props.onAnswerSelected}
       />
       <label className = {StyleCss.radioCustomLabel} htmlFor = {props.answerType}>
         {props.answerContent}
