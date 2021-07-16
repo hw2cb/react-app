@@ -81,18 +81,18 @@ class QuizContainer extends React.Component {
     renderQuiz() {
         return (
             <Quiz
-                answer={this.state.answer}
-                answerOptions={this.state.answerOptions}
-                questionId={this.state.questionId}
-                question={this.state.question}
-                questionTotal={quizQuestions.length}
-                onAnswerSelected={this.handleAnswerSelected}
+                answer = {this.state.answer}
+                answerOptions = {this.state.answerOptions}
+                questionId = {this.state.questionId}
+                question = {this.state.question}
+                questionTotal = {quizQuestions.length}
+                onAnswerSelected = {this.handleAnswerSelected}
             />
         );
     }
 
     renderResult() {
-        return <Result quizResult={this.state.result} />;
+        return <Result quizResult = {this.state.result} />;
     }
 
     render() {

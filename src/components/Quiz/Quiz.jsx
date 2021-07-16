@@ -1,6 +1,5 @@
 import React from 'react';
 import Question from './Question';
-import QuestionCount from './QuestionCount';
 import AnswerOption from './AnswerOption';
 import StyleCss from './quiz.module.css';
 
@@ -9,7 +8,6 @@ const Quiz = (props) => {
         return (
             <AnswerOption
                 key = {key.content}
-                // answerContent = {key.content}
                 answerType = {key.type}
                 answer = {props.answer}
                 questionId = {props.questionId}
@@ -20,7 +18,6 @@ const Quiz = (props) => {
 
     return (
         <div key = {props.questionId}>
-            {/* <QuestionCount counter = {props.questionId} total = {props.questionTotal} /> */}
             <Question content = {props.question} />
             <ul className = {StyleCss.answerOptions}>
                 {props.answerOptions.map(renderAnswerOptions)}

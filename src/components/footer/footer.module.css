@@ -160,6 +160,195 @@ input{
     border-radius: 10px;
 }
 
-@media (min-width: 420px) {}
-@media (min-width: 760px) {}
-@media (max-width: 1200px) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    footer{
+        max-width: 480px;
+    }
+
+    .inputs{
+        font-size: 10px;
+    }
+    
+    .info{
+        padding: 1%;
+        margin-left: 10px;
+    }
+    
+    .other{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        line-height: 25px;
+    }
+    
+    .ccs{
+        padding-top: 10px;
+        padding-bottom: 4%;
+        padding-left: 1%;
+        margin-left: 10px;
+        font-size: 8px;
+    }
+    
+    .questions{
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    
+    .name{
+        padding: 1.5%;
+        border-radius: 10px;
+        width: 100px;
+        height: 7px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    .phone{
+        padding: 1.5%;
+        margin-top: -5px;
+        border-radius: 10px;
+        border: none;
+        color: #444;
+        width: 100px;
+        height: 7px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    .email{
+        padding: 1.5%;
+        margin-top: -5px;
+        border-radius: 10px;
+        border: none;
+        color: #444;
+        width: 100px;
+        height: 7px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    .message{
+        padding-left: 1.5%;
+        margin-top: -5px;
+        border-radius: 10px;
+        border: none;
+        color: #444;
+        width: 105px;
+        height: 60px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    .send{
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        background-color: #F6B028;
+        color: white;
+        width: 115px;
+        height: 25px;
+        margin-bottom: 50px;
+        margin-top: -5px;
+        font-size: 8px;
+    }
+    
+    .map{
+        margin-right: 21px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-bottom: -190px;
+    }
+    
+    .otherInfo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: -50px;
+    }
+    
+    .item{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 20%;
+        flex: 1;
+        height: 48%;
+        margin-left: 300px;
+        font-size: 8px;
+    }
+    
+    .item + .item{
+        margin-left: -320px;
+    }
+    
+    .material{
+        margin-top: 10px;
+        line-height: 25px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        font-size: 8px;
+    }
+    
+    .icons{
+        float: left;
+        margin-right: 18px;
+    }
+    
+    .icon{
+        margin-top: 10px;
+        float: left;
+        margin-right: 0px;
+        margin-left: 10px;
+        background-size: 5px;
+    }
+    
+    .googleMap{
+        width: 300px;
+        height: 190px;
+        margin-right: -5px;
+    }
+}
+
+@media only screen and (min-width : 321px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+@media only screen and (min-width : 1224px) {
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+
+}

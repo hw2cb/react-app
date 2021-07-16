@@ -1,4 +1,4 @@
-const quizQuestions = [
+const quizQuestions = [ 
     {
         question: "Сколько лет ребёнку?",
         answers: [
@@ -90,6 +90,6 @@ const quizQuestions = [
             }
         ]
     }
-  ];
-  
-  export default quizQuestions;
+];
+
+export default quizQuestions;

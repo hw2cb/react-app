@@ -51,3 +51,46 @@
     margin-bottom: 100px;
     padding-bottom: 10px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .radioCustomButton {
+        width: 195px;
+        height: 110px;
+        font-size: 30px;
+        color: #444;
+        text-align: start;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width : 321px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+@media only screen and (min-width : 1224px) {
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+
+}
