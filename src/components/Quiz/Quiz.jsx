@@ -2,7 +2,6 @@ import React from 'react';
 import Question from './Question';
 import AnswerOption from './AnswerOption';
 import StyleCss from './quiz.module.css';
-
 const Quiz = (props) => {
     let renderAnswerOptions = (key) => {
         return (

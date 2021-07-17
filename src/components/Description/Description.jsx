@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import StyleCss from "./description.module.css";
-
+import {Spring, Transition, animated} from 'react-spring';
 const Description = () => {
+    const[isVisible, setIsVisible] = useState(false);
+    const myRef=useRef(null);
     return (
         <section>
             <div className = {StyleCss.whoIsThisCourseFor}>

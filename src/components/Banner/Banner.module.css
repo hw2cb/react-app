@@ -1,5 +1,7 @@
 .wrapper{
-    background: url(/src/components/image/banner.svg) no-repeat;
+    /*background: url(/src/components/image/banner.png) no-repeat !important;*/
+    background: #8CC754;
+    
     background-size: 100%;
 }
 
@@ -20,7 +22,6 @@ button{
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    
 }
 
 .content{

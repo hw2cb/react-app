@@ -11,8 +11,8 @@ const LogoNav = () => {
                         <img src={logo} />
                     </div>
                     <div className={StyleCss.titleLogo}>
-                    Детская компьютерная
-                    школа
+                        Детская компьютерная
+                        школа
                     </div>
                 </div>
                 <div className={StyleCss.nav}>
