@@ -28,8 +28,6 @@
 .radioCustomButton {
     background-color: #FBFBFB;
     border-color: #444;
-    width: 1595px;
-    height: 110px;
     font-size: 30px;
     color: #444;
     text-align: start;
@@ -53,6 +51,168 @@
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 35px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        min-width: 320px;
+        width: 0 auto;
+        height: 50px;
+        font-size: 18px;
+        color: #444;
+        text-align: start;
+        padding-left: 25px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width : 321px) {
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 35px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        min-width: 271px;
+        width: 0 auto;
+        height: 50px;
+        font-size: 18px;
+        color: #444;
+        text-align: start;
+        padding-left: 25px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 35px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        min-width: 240px;
+        width: 0 auto;
+        height: 50px;
+        font-size: 18px;
+        color: #444;
+        text-align: start;
+        padding-left: 25px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .radioCustomButton {
         width: 195px;
         height: 110px;
@@ -61,18 +221,6 @@
         text-align: start;
         padding-left: 50px;
     }
-}
-
-@media only screen and (min-width : 321px) {
-
-}
-
-@media only screen and (max-width : 320px) {
-
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {

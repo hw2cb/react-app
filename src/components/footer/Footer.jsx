@@ -125,16 +125,16 @@ const Footer = () => {
                     </div>
                     <div className = {StyleCss.icons}>
                         <div className = {StyleCss.icon}>
-                            <a href = "#"><img src = {vkIcon} /></a>
+                            <a href = "#"><img className = {StyleCss.vkIcon} src = {vkIcon} /></a>
                         </div>
                         <div className = {StyleCss.icon}>
-                            <a href = "#"><img src = {instaIcon} /></a>
+                            <a href = "#"><img className = {StyleCss.instaIcon} src = {instaIcon} /></a>
                         </div>
                         <div className = {StyleCss.icon}>
-                            <a href = "#"><img src = {youtubeIcon} /></a>
+                            <a href = "#"><img className = {StyleCss.youtubeIcon} src = {youtubeIcon} /></a>
                         </div>
                         <div className = {StyleCss.icon}>
-                            <a href = "#"><img src = {fbIcon} /></a>
+                            <a href = "#"><img className = {StyleCss.fbIcon} src = {fbIcon} /></a>
                         </div>
                     </div>
                 </div>

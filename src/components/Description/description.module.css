@@ -25,3 +25,224 @@ section{
     padding-bottom: 5%;
     color: #BD67D5;
 }
+
+@media only screen and (min-width : 321px) {
+    section{
+        max-width: 330px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 15px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    
+    .description{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    section{
+        max-width: 320px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 11px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        font-size: 9px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    section{
+        max-width: 1024px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 25px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        font-size: 22px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    section{
+        max-width: 1024px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 25px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        font-size: 22px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    section{
+        max-width: 1024px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 25px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        font-size: 22px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width : 1224px) {
+    section{
+        max-width: 1224px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 25px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 32px;
+        font-size: 22px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width : 1824px) {
+    section{
+        max-width: 1824px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 30px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 35px;
+        font-size: 25px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    section{
+        max-width: 1824px;
+    }
+
+    .whoIsThisCourseFor h1{
+        font-size: 25px;
+        padding-left: 6%;
+    }
+    
+    .description h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 40px;
+        font-size: 22px;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+}
