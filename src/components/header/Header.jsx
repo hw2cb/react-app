@@ -5,7 +5,6 @@ import fbIcon from "../image/facebook.svg";
 import vkIcon from "../image/vk.svg"
 import instaIcon from "../image/inst.svg"
 import StyleCss from "./header.module.css"
-
 const Header = () => {
     return (
         <header>

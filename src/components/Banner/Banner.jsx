@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Banner.module.css";
+import instaIcon from "../image/banner.svg"
 
 const Banner = () => {
     return (

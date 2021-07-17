@@ -5,7 +5,7 @@ import Banner from './components/Banner/Banner';
 import Description from './components/Description/Description';
 import Footer from './components/footer/Footer';
 import QuizContainer from './components/Quiz/QuizContainer';
-
+import {Spring, animated} from 'react-spring';
 
 const App = () => {
   return (
