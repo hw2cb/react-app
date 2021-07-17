@@ -32,6 +32,7 @@
     color: #444;
     text-align: start;
     padding-left: 50px;
+    width: 100%;
 }
 
 .radioCustomButton:hover {
@@ -50,7 +51,7 @@
     padding-bottom: 10px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 381px) and (max-device-width : 480px) {
     .question {
         display: flex;
         justify-content: center;
@@ -59,7 +60,7 @@
         color: #fff;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 35px;
+        font-size: 40px;
         padding-top: 200px;
         padding-bottom: 200px;
         background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
@@ -83,7 +84,7 @@
     .radioCustomButton {
         background-color: #FBFBFB;
         border-color: #444;
-        min-width: 320px;
+        width: 335px;
         width: 0 auto;
         height: 50px;
         font-size: 18px;
@@ -114,8 +115,8 @@
         padding-left: 10px;
         padding-right: 10px;
         font-size: 35px;
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 150px;
         background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
         margin-bottom: 0;
     }
@@ -137,7 +138,6 @@
     .radioCustomButton {
         background-color: #FBFBFB;
         border-color: #444;
-        min-width: 271px;
         width: 0 auto;
         height: 50px;
         font-size: 18px;
@@ -167,9 +167,9 @@
         color: #fff;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 35px;
-        padding-top: 200px;
-        padding-bottom: 200px;
+        font-size: 30px;
+        padding-top: 120px;
+        padding-bottom: 120px;
         background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
         margin-bottom: 0;
     }
@@ -191,10 +191,9 @@
     .radioCustomButton {
         background-color: #FBFBFB;
         border-color: #444;
-        min-width: 240px;
         width: 0 auto;
         height: 50px;
-        font-size: 18px;
+        font-size: 15px;
         color: #444;
         text-align: start;
         padding-left: 25px;
@@ -204,39 +203,228 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 20px;
+        font-size: 10px;
         color: #fff;
         background-color: #8CC754;
         margin-bottom: 100px;
-        padding-bottom: 10px;
+        padding-top: 6px;
     }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 48px;
+        padding-top: 180px;
+        padding-bottom: 180px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
     .radioCustomButton {
-        width: 195px;
-        height: 110px;
-        font-size: 30px;
+        background-color: #FBFBFB;
+        border-color: #444;
+        width: 0 auto;
+        height: 50px;
+        font-size: 15px;
         color: #444;
         text-align: start;
-        padding-left: 50px;
+        padding-left: 25px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-top: 6px;
     }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 48px;
+        padding-top: 180px;
+        padding-bottom: 180px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        width: 0 auto;
+        height: 50px;
+        font-size: 15px;
+        color: #444;
+        text-align: start;
+        padding-left: 25px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-top: 6px;
+    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 
 }
 
-@media only screen and (min-width : 1224px) {
-
+@media only screen and (min-width : 1025px) {
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 52px;
+        padding-top: 250px;
+        padding-bottom: 250px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        width: 0 auto;
+        height: 70px;
+        font-size: 18px;
+        color: #444;
+        text-align: start;
+        padding-left: 30px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-top: 6px;
+    }
 }
 
 @media only screen and (min-width : 1824px) {
-
+    .question {
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 60px;
+        padding-top: 350px;
+        padding-bottom: 350px;
+        background: linear-gradient(249.51deg, #8CC754 0%, rgba(140, 199, 84, 0.2) 93.38%);
+        margin-bottom: 0;
+    }
+    
+    .answerOptions {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        flex-direction: column;
+        padding: 20px;
+        border: none;
+        background-color: #FBFBFB;
+    }
+    
+    .answerOptions li {
+        padding: 5px;
+    }
+    
+    .radioCustomButton {
+        background-color: #FBFBFB;
+        border-color: #444;
+        width: 0 auto;
+        height: 80px;
+        font-size: 18px;
+        color: #444;
+        text-align: start;
+        padding-left: 30px;
+    }
+    
+    .resultQuiz {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        color: #fff;
+        background-color: #8CC754;
+        margin-bottom: 100px;
+        padding-top: 6px;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {

@@ -24,6 +24,7 @@ section{
     padding-right: 6%;
     padding-bottom: 5%;
     color: #BD67D5;
+    margin-bottom: -3%;
 }
 
 @media only screen and (min-width : 321px) {
@@ -47,7 +48,7 @@ section{
     .description{
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -103,7 +104,7 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -131,7 +132,7 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -159,7 +160,7 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -187,7 +188,7 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -215,7 +216,7 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }
 
@@ -243,6 +244,6 @@ section{
         align-items: center;
         padding-left: 6%;
         padding-right: 6%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
 }

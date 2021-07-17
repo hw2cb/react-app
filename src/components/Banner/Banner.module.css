@@ -1,6 +1,7 @@
 .wrapper{
     background: url(/src/components/image/banner.svg) no-repeat;
     background-size: 100%;
+    background-color: #8CC754;
 }
 
 button{
