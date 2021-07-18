@@ -5,6 +5,7 @@ section{
 .whoIsThisCourseFor h1{
     font-size: 45px;
     padding-left: 6%;
+    padding-top: 1.6%;
     color: #8CC754;
 }
 
@@ -27,11 +28,7 @@ section{
     margin-bottom: -3%;
 }
 
-@media only screen and (min-width : 321px) {
-    section{
-        max-width: 330px;
-    }
-
+@media only screen and (max-width: 321px) {
     .whoIsThisCourseFor h1{
         font-size: 15px;
         padding-left: 6%;

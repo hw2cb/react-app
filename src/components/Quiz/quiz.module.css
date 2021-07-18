@@ -309,7 +309,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
         color: #fff;
         background-color: #8CC754;
         margin-bottom: 100px;
@@ -318,6 +318,10 @@
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 
 }
 
@@ -366,7 +370,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
         color: #fff;
         background-color: #8CC754;
         margin-bottom: 100px;
@@ -419,14 +423,10 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
         color: #fff;
         background-color: #8CC754;
         margin-bottom: 100px;
         padding-top: 6px;
     }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-
 }

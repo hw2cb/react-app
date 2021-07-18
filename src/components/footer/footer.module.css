@@ -98,8 +98,6 @@ input{
 }
 
 .send{
-    padding: 1%;
-    padding-bottom: 1.9%;
     text-align: center;
     border-radius: 10px;
     border: none;
@@ -162,1095 +160,646 @@ input{
 
 /* Адаптив */
 
-@media only screen and (min-device-width: 120px) and (max-device-width: 350px) {
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
     footer{
-        max-width: 350px;
+        max-width: 480;
     }
 
-    .inputs{
-        font-size: 10px;
-    }
-    
     .info{
-        padding: 1%;
-        margin-left: 10px;
+        padding: 2%;
+        margin-left: 2%;
     }
     
     .other{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        line-height: 25px;
+        margin-left: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        line-height: 2%;
+    }
+
+    .questions{
+        margin-top: 2%;
+        font-size: 12px;
+    }
+    
+    .inputs{
+        margin-top: 13.5%;
+    }
+    
+    .name{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .phone{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .email{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .message{
+        padding: 1.5%;
+        width: 30%;
+        height: 40px;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .send{
+        padding: 1.5%;
+        width: 33%;
+        font-size: 7px;
+        height: 1%;
+        margin-bottom: 2%;
+    }
+    
+    .map{
+        margin-right: 4%;
+    }
+    
+    .otherInfo{
+        margin-top: 130px;
+        font-size: 8px;
     }
     
     .ccs{
         padding-top: 10px;
         padding-bottom: 4%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 5px;
-    }
-    
-    .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: 20px;
+        padding-left: 2%;
+        margin-left: 2%;
         font-size: 6px;
-    }
-    
-    .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-    
-    .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 103px;
-        height: 50px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-
-    .vkIcon{
-        width: 9px;
-    }
-
-    .instaIcon{
-        width: 8px;
-        height: 6px;
-        margin-left: -3px;
-    }
-
-    .youtubeIcon{
-        width: 9px;
-    }
-
-    .fbIcon{
-        width: 9px;
-    }
-    
-    .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 111px;
-        height: 17px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 5px;
-    }
-    
-    .map{
-        margin-right: 15px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -219px;
-    }
-    
-    .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
     }
     
     .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
+        margin-top: -139px;
+        flex-basis: 50%;
         flex: 1;
         height: 48%;
-        margin-left: 200px;
+        margin-left: 40%;
+        line-height: 15px;
         font-size: 5px;
-        margin-top: 5px;
-        line-height: 12px;
     }
     
     .item + .item{
-        margin-left: -140px;
+        margin-left: 5%;
     }
     
     .material{
-        margin-top: -50px;
-        line-height: 12px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        font-size: 5px;
+        margin-top: -146px;
+        line-height: 15px;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        font-size: 6px;
     }
-    
+
     .icons{
-        float: left;
-        margin-right: 14px;
+        margin-top: -135px;
     }
+
+    .vkIcon { width: 50%; }
+
+    .instaIcon { width: 50%; }
+    
+    .youtubeIcon { width: 50%; }
+
+    .fbIcon { width: 50%; }
     
     .icon{
-        margin-top: -5px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 6px;
-        background-size: 5px;
+        margin-top: -2%;
+        margin-right: -10%;
+        margin-left: 6%;
     }
     
     .googleMap{
-        width: 170px;
-        height: 110px;
-        margin-right: -5px;
+        width: 59%;
+        height: 45%;
+        margin-top: -158px;
     }
 }
 
-@media only screen and (min-device-width: 351px) {
+@media only screen and (max-width : 320px) {
     footer{
-        max-width: 400px;
+        max-width: 320;
+        margin-bottom: 0px;
     }
 
-    .inputs{
-        font-size: 10px;
-    }
-    
     .info{
-        padding: 1%;
-        margin-left: 10px;
+        padding: 2%;
+        margin-left: 2%;
     }
     
     .other{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        line-height: 25px;
+        margin-left: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        line-height: 2%;
+    }
+
+    .questions{
+        margin-top: 2%;
+        font-size: 12px;
+    }
+    
+    .inputs{
+        margin-top: 13.5%;
+    }
+    
+    .name{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .phone{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .email{
+        padding: 1.5%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .message{
+        padding: 1.5%;
+        width: 30%;
+        height: 40px;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    
+    .send{
+        padding: 1.5%;
+        width: 33%;
+        font-size: 7px;
+        height: 1%;
+        margin-bottom: 2%;
+    }
+    
+    .map{
+        margin-right: 4%;
+    }
+    
+    .otherInfo{
+        margin-top: 130px;
+        font-size: 8px;
     }
     
     .ccs{
         padding-top: 10px;
         padding-bottom: 4%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 5px;
-    }
-    
-    .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: 20px;
+        padding-left: 2%;
+        margin-left: 2%;
         font-size: 6px;
-    }
-    
-    .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-    
-    .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 100px;
-        height: 3px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-    
-    .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 103px;
-        height: 50px;
-        margin-bottom: 8px;
-        font-size: 6px;
-    }
-
-    .vkIcon{
-        width: 9px;
-    }
-
-    .instaIcon{
-        width: 8px;
-        height: 6px;
-        margin-left: -3px;
-    }
-
-    .youtubeIcon{
-        width: 9px;
-    }
-
-    .fbIcon{
-        width: 9px;
-    }
-    
-    .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 111px;
-        height: 17px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 5px;
-    }
-    
-    .map{
-        margin-right: 15px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -219px;
-    }
-    
-    .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
     }
     
     .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
+        margin-top: -139px;
+        flex-basis: 50%;
         flex: 1;
         height: 48%;
-        margin-left: 200px;
+        margin-left: 40%;
+        line-height: 15px;
         font-size: 5px;
-        margin-top: 5px;
-        line-height: 12px;
     }
     
     .item + .item{
-        margin-left: -140px;
+        margin-left: 5%;
     }
     
     .material{
-        margin-top: -50px;
-        line-height: 12px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        font-size: 5px;
+        margin-top: -146px;
+        line-height: 15px;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        font-size: 6px;
     }
-    
+
     .icons{
-        float: left;
-        margin-right: 14px;
+        margin-top: -135px;
     }
+
+    .vkIcon { width: 50%; }
+
+    .instaIcon { width: 50%; }
+    
+    .youtubeIcon { width: 50%; }
+
+    .fbIcon { width: 50%; }
     
     .icon{
-        margin-top: -5px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 6px;
-        background-size: 5px;
+        margin-top: -2%;
+        margin-right: -10%;
+        margin-left: 6%;
     }
     
     .googleMap{
-        width: 200px;
-        height: 120px;
-        margin-right: -5px;
+        width: 59%;
+        height: 45%;
+        margin-top: -158px;
     }
 }
 
-@media only screen and (min-device-width: 901px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 481px) and (max-device-width : 768px) {
     footer{
-        max-width: 1024px;
+        max-width: 480;
     }
 
-    .inputs{
-        font-size: 10px;
-    }
-    
     .info{
-        padding: 1%;
-        margin-left: 10px;
+        padding: 2%;
+        margin-left: 2%;
     }
     
     .other{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        line-height: 25px;
+        margin-left: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        line-height: 2%;
     }
-    
-    .ccs{
-        padding-top: 10px;
-        padding-bottom: 3%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 9px;
-    }
-    
+
     .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: -20px;
+        margin-top: 2%;
         font-size: 12px;
     }
     
     .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: -100px;
+        margin-top: 10.5%;
     }
     
     .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 1.5%;
     }
     
     .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 1.5%;
     }
     
     .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 8px;
+        margin-bottom: 1.5%;
     }
     
     .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 238px;
-        height: 80px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-
-    .vkIcon{
-        width: 25px;
-    }
-
-    .instaIcon{
-        width: 19px;
-        height: 19px;
-        margin-left: -5px;
-    }
-
-    .youtubeIcon{
-        width: 25px;
-    }
-
-    .fbIcon{
-        width: 25px;
+        padding: 1%;
+        width: 30%;
+        height: 40px;
+        font-size: 8px;
+        margin-bottom: 1.5%;
     }
     
     .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 253px;
-        height: 25px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 9px;
+        width: 32%;
+        font-size: 7px;
+        height: 20px;
+        margin-bottom: 1.5%;
     }
     
     .map{
-        margin-right: 21px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -234px;
+        margin-right: 4%;
     }
     
     .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
+        margin-top: 130px;
+        font-size: 8px;
+    }
+    
+    .ccs{
+        padding-top: 10px;
+        padding-bottom: 4%;
+        padding-left: 2%;
+        margin-left: 2%;
+        font-size: 7px;
     }
     
     .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
+        margin-top: -139px;
+        flex-basis: 50%;
         flex: 1;
         height: 48%;
-        margin-left: 530px;
-        font-size: 9px;
-        margin-top: 5px;
+        margin-left: 40%;
+        line-height: 15px;
+        font-size: 7px;
     }
     
     .item + .item{
-        margin-left: -450px;
+        margin-left: 5%;
     }
     
     .material{
-        margin-top: -80px;
-        line-height: 25px;
-        margin-left: 20px;
-        margin-bottom: 25px;
-        font-size: 9px;
-    }
-    
-    .icons{
-        float: left;
-        margin-right: 22px;
-    }
-    
-    .icon{
-        margin-top: 5px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 10px;
-        background-size: 5px;
+        margin-top: -146px;
+        line-height: 15px;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        font-size: 7px;
     }
 
+    .icons{
+        margin-top: -135px;
+    }
+
+    .vkIcon { width: 50%; }
+
+    .instaIcon { width: 50%; }
+    
+    .youtubeIcon { width: 50%; }
+
+    .fbIcon { width: 50%; }
+    
+    .icon{
+        margin-top: -2%;
+        margin-right: -10%;
+        margin-left: 4.5%;
+    }
+    
     .googleMap{
-        width: 580px;
-        height: 290px;
-        margin-right: -5px;
-        margin-bottom: -13px;
+        width: 59%;
+        height: 100%;
+        margin-top: -158px;
     }
 }
 
-@media only screen and (min-device-width: 850px) and (max-device-width: 900px) {
-    footer{
-        max-width: 900px;
-    }
-
-    .inputs{
-        font-size: 10px;
-    }
-    
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .info{
-        padding: 1%;
-        margin-left: 10px;
+        padding: 2%;
+        margin-left: 2%;
     }
     
     .other{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        line-height: 25px;
+        margin-left: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        line-height: 2%;
     }
-    
-    .ccs{
-        padding-top: 10px;
-        padding-bottom: 3%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 9px;
-    }
-    
+
     .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: -20px;
+        margin-top: 1.5%;
         font-size: 12px;
     }
     
     .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: -100px;
+        margin-top: 7%;
     }
     
     .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 10px;
+        margin-bottom: 1%;
     }
     
     .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 10px;
+        margin-bottom: 1%;
     }
     
     .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 10px;
+        margin-bottom: 1%;
     }
     
     .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 238px;
-        height: 80px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-
-    .vkIcon{
-        width: 25px;
-    }
-
-    .instaIcon{
-        width: 19px;
-        height: 19px;
-        margin-left: -5px;
-    }
-
-    .youtubeIcon{
-        width: 25px;
-    }
-
-    .fbIcon{
-        width: 25px;
+        padding: 1%;
+        width: 30%;
+        height: 70px;
+        font-size: 10px;
+        margin-bottom: 0.6%;
     }
     
     .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 253px;
-        height: 25px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 9px;
+        width: 32%;
+        font-size: 7px;
+        height: 20px;
+        margin-bottom: 1%;
     }
     
     .map{
-        margin-right: 21px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -234px;
+        margin-right: 4%;
     }
     
     .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
-    }
-    
-    .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
-        flex: 1;
-        height: 48%;
-        margin-left: 480px;
-        font-size: 9px;
-        margin-top: 5px;
-    }
-    
-    .item + .item{
-        margin-left: -390px;
-    }
-    
-    .material{
-        margin-top: -80px;
-        line-height: 25px;
-        margin-left: 20px;
-        margin-bottom: 25px;
-        font-size: 9px;
-    }
-    
-    .icons{
-        float: left;
-        margin-right: 22px;
-    }
-    
-    .icon{
-        margin-top: 5px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 10px;
-        background-size: 5px;
-    }
-
-    .googleMap{
-        width: 530px;
-        height: 290px;
-        margin-right: -5px;
-        margin-bottom: -9px;
-    }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 849px) {
-    footer{
-        max-width: 849px;
-    }
-
-    .inputs{
-        font-size: 10px;
-    }
-    
-    .info{
-        padding: 1%;
-        margin-left: 10px;
-    }
-    
-    .other{
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 1%;
-        padding-left: 1%;
-        line-height: 25px;
+        margin-top: 130px;
+        font-size: 8px;
     }
     
     .ccs{
         padding-top: 10px;
-        padding-bottom: 3%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 9px;
-    }
-    
-    .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: -20px;
-        font-size: 12px;
-    }
-    
-    .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: -100px;
-    }
-    
-    .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-    
-    .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-    
-    .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 230px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-    
-    .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 238px;
-        height: 80px;
-        margin-bottom: 15px;
-        font-size: 9px;
-    }
-
-    .vkIcon{
-        width: 25px;
-    }
-
-    .instaIcon{
-        width: 19px;
-        height: 19px;
-        margin-left: -5px;
-    }
-
-    .youtubeIcon{
-        width: 25px;
-    }
-
-    .fbIcon{
-        width: 25px;
-    }
-    
-    .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 253px;
-        height: 25px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 9px;
-    }
-    
-    .map{
-        margin-right: 21px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -234px;
-    }
-    
-    .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
-    }
-    
-    .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
-        flex: 1;
-        height: 48%;
-        margin-left: 480px;
-        font-size: 9px;
-        margin-top: 5px;
-    }
-    
-    .item + .item{
-        margin-left: -390px;
-    }
-    
-    .material{
-        margin-top: -80px;
-        line-height: 25px;
-        margin-left: 20px;
-        margin-bottom: 25px;
-        font-size: 9px;
-    }
-    
-    .icons{
-        float: left;
-        margin-right: 22px;
-    }
-    
-    .icon{
-        margin-top: 5px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 10px;
-        background-size: 5px;
-    }
-    
-    .googleMap{
-        width: 450px;
-        height: 290px;
-        margin-right: -5px;
-    }
-}
-
-@media only screen and (min-width : 1024px) {
-    footer{
-        max-width: 1024px;
-    }
-
-    .inputs{
+        padding-bottom: 4%;
+        padding-left: 2%;
+        margin-left: 2%;
         font-size: 10px;
     }
     
+    .item{
+        margin-top: -143px;
+        flex-basis: 50%;
+        flex: 1;
+        height: 48%;
+        margin-left: 45%;
+        line-height: 15px;
+        font-size: 10px;
+    }
+    
+    .item + .item{
+        margin-left: 5%;
+    }
+    
+    .material{
+        margin-top: -160px;
+        line-height: 15px;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        font-size: 10px;
+    }
+
+    .icons{
+        margin-top: -138px;
+        margin-right: 2.7%;
+    }
+
+    .vkIcon { width: 70%; }
+
+    .instaIcon { width: 70%; }
+    
+    .youtubeIcon { width: 70%; }
+
+    .fbIcon { width: 70%; }
+    
+    .icon{
+        margin-top: -2%;
+        margin-right: 0.7%;
+        margin-left: -4%;
+    }
+    
+    .googleMap{
+        height: 260px; 
+        width: 60%;
+        margin-top: -268px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1444px) {
     .info{
-        padding: 1%;
-        margin-left: 10px;
+        padding: 2%;
+        margin-left: 2%;
     }
     
     .other{
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
+        margin-left: 1%;
         padding-bottom: 1%;
         padding-left: 1%;
-        line-height: 25px;
+        line-height: 1%;
     }
-    
-    .ccs{
-        padding-top: 10px;
-        padding-bottom: 3%;
-        padding-left: 1%;
-        margin-left: 10px;
-        font-size: 11px;
-    }
-    
+
     .questions{
-        margin-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-        margin-bottom: -20px;
+        margin-top: 1%;
         font-size: 17px;
+        margin-left: -1%;
     }
     
     .inputs{
-        display: flex;
-        flex-direction: column;
-        margin-top: -100px;
+        margin-top: 5%;
+        margin-left: -1%;
     }
     
     .name{
-        padding: 1.5%;
-        border-radius: 10px;
-        width: 300px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 11px;
+        padding: 0.8%;
+        width: 30%;
+        height: 1%;
+        font-size: 12px;
+        margin-bottom: 1.2%;
     }
     
     .phone{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 300px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 11px;
+        padding: 0.8%;
+        width: 30%;
+        height: 1%;
+        font-size: 12px;
+        margin-bottom: 1.2%;
     }
     
     .email{
-        padding: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 300px;
-        height: 7px;
-        margin-bottom: 15px;
-        font-size: 11px;
+        padding: 0.8%;
+        width: 30%;
+        height: 1%;
+        font-size: 12px;
+        margin-bottom: 1.2%;
     }
     
     .message{
-        padding-left: 1.5%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: none;
-        color: #444;
-        width: 311px;
+        padding: 0.8%;
+        width: 30%;
         height: 80px;
-        margin-bottom: 15px;
-        font-size: 11px;
-    }
-
-    .vkIcon{
-        width: 25px;
-    }
-
-    .instaIcon{
-        width: 19px;
-        height: 19px;
-        margin-left: -5px;
-    }
-
-    .youtubeIcon{
-        width: 25px;
-    }
-
-    .fbIcon{
-        width: 25px;
+        font-size: 12px;
+        margin-bottom: 1.2%;
     }
     
     .send{
-        text-align: center;
-        border-radius: 10px;
-        border: none;
-        background-color: #F6B028;
-        color: white;
-        width: 329px;
+        width: 31.8%;
+        font-size: 10px;
         height: 25px;
-        margin-bottom: 50px;
-        margin-top: -5px;
-        font-size: 11px;
+        margin-bottom: 1%;
     }
     
     .map{
-        margin-right: 21px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-bottom: -234px;
+        margin-right: 0.8%;
     }
     
     .otherInfo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: -50px;
+        margin-top: 130px;
+        font-size: 12px;
+    }
+    
+    .ccs{
+        padding-top: 10px;
+        padding-bottom: 4%;
+        padding-left: 2%;
+        margin-left: 2%;
+        font-size: 12px;
     }
     
     .item{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 20%;
+        margin-top: -153px;
+        flex-basis: 50%;
         flex: 1;
         height: 48%;
-        margin-left: 630px;
-        font-size: 11px;
-        margin-top: 5px;
+        margin-left: 45%;
+        line-height: 20px;
+        font-size: 12px;
     }
     
     .item + .item{
-        margin-left: -450px;
+        margin-left: 5%;
     }
     
     .material{
-        margin-top: -80px;
-        line-height: 25px;
-        margin-left: 20px;
-        margin-bottom: 25px;
-        font-size: 11px;
+        margin-top: -165px;
+        line-height: 20px;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        font-size: 12px;
     }
-    
+
     .icons{
-        float: left;
-        margin-right: 24px;
+        margin-top: -140px;
+        margin-right: 2.5%;
     }
     
     .icon{
-        margin-top: 5px;
-        float: left;
-        margin-right: 0px;
+        margin-top: -5%;
+        margin-right: 1px;
         margin-left: 10px;
-        background-size: 5px;
     }
-
+    
     .googleMap{
-        width: 600px;
-        height: 350px;
-        margin-right: -5px;
-        margin-bottom: -25px;
+        height: 335px; 
+        width: 65%;
+        margin-top: -348px;
     }
-}
-
-@media only screen and (min-width : 1824px) {
-
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-
 }
