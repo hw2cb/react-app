@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c7c53a23f3c4f204e2e5",
-    "url": "/react-app/static/css/main.3cf9e1ca.chunk.css"
+    "revision": "a9010d27ea2ad753c02a",
+    "url": "/react-app/static/css/main.517d95b0.chunk.css"
   },
   {
-    "revision": "c7c53a23f3c4f204e2e5",
-    "url": "/react-app/static/js/main.3bee6741.chunk.js"
+    "revision": "a9010d27ea2ad753c02a",
+    "url": "/react-app/static/js/main.406073ac.chunk.js"
   },
   {
     "revision": "cddc082483774c4967d2",
     "url": "/react-app/static/js/runtime~main.1f653c85.js"
   },
   {
-    "revision": "b0c6d5fb9d64a548dfce",
-    "url": "/react-app/static/js/2.87ca6f8c.chunk.js"
+    "revision": "818f1899d6390c94bd7d",
+    "url": "/react-app/static/js/2.54856730.chunk.js"
   },
   {
     "revision": "2f84ae31e762988b0ce4",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/react-app/static/media/map.14e43114.svg"
   },
   {
-    "revision": "970d2d73a24a5de7d843b46d7cd008dc",
+    "revision": "584495bd020778b0777dcdbe2a573b79",
     "url": "/react-app/index.html"
   }
 ];
