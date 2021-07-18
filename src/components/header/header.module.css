@@ -34,3 +34,41 @@ a{
     max-width: 269px;
     margin-right: 80px;
 }
+@media only screen and (max-width : 1230px) {
+    .contact
+    {
+        display: flex;
+        flex-direction: column;
+        font-size:13px;
+    }
+    .icons{
+        margin-top: 5px;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width : 880px) {
+    .title{
+        margin-right: 0;
+        max-width: 150px;
+        font-size:12px;
+    }
+}
+@media only screen and (max-width : 715px) {
+    .contact
+    {
+       display: none;
+    }
+}
+@media only screen and (max-width : 570px) {
+    .nameTitle{
+        display: none;
+    }
+    .title{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .glasses{
+        width: 36px;
+        height: 13px;
+    }
+}

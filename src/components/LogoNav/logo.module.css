@@ -17,8 +17,7 @@ ul{
     line-height: 15px;
     border-radius: 10px;
     border:2px solid #8CC754;
-    width: 270px;
-    height: 50px;
+    padding:20px 70px 20px 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +54,44 @@ ul{
 .selected{
     background-color: #8CC754;
     color:white;
+}
+
+@media only screen and (max-width : 825px) {
+    .logoImage
+    {
+        width: 80%;
+        height: 80%;
+    }
+    .titleLogo
+    {
+        font-size:12px;
+    }
+    .navButton
+    {
+        font-size:9px;
+        padding:15px 50px;
+    }
+}
+@media only screen and (max-width : 725px) {
+
+    .titleLogo
+    {
+        font-size:12px;
+        margin-bottom: 40px;
+    }
+    .navButton
+    {
+        font-size:9px;
+        padding:15px 50px;
+    }
+    .nav
+    {
+        margin-right: 0;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

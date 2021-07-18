@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className={`${StyleCss.contact} ${StyleCss.container}`}>
-                        <div className="phone">
+                        <div className={StyleCss.phoneNumber}>
                             +7 (8452) 99-87-34
                         </div>
                         <div className={StyleCss.icons}>
@@ -33,7 +33,7 @@ const Header = () => {
                             </div>
                         </div>
                 </div>
-                <div className={`${StyleCss.info} ${StyleCss.container}`}>
+                <div className={`${StyleCss.infoHeader} ${StyleCss.container}`}>
                     <div className={`${StyleCss.title} ${StyleCss.infoTitle}`}>
                         <a href="#">
                         Сведения об образовательной
@@ -41,8 +41,8 @@ const Header = () => {
                         </a>
 
                     </div>
-                    <div className="glasses">
-                        <a href="#"><img src={glassesIcon} /></a>
+                    <div>
+                        <a href="#"><img className={StyleCss.glasses} src={glassesIcon} /></a>
                     </div>
                 </div>
             </div>
