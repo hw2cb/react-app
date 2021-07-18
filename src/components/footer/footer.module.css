@@ -803,3 +803,123 @@ input{
         margin-top: -348px;
     }
 }
+
+@media screen and (min-device-width: 1444px) {
+    .info{
+        padding: 2%;
+        margin-left: 2%;
+    }
+    
+    .other{
+        margin-left: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        line-height: 1%;
+    }
+
+    .questions{
+        margin-top: 1%;
+        font-size: 22px;
+        margin-left: -1%;
+    }
+    
+    .inputs{
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+    
+    .name{
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 15px;
+        margin-bottom: 1.2%;
+    }
+    
+    .phone{
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 15px;
+        margin-bottom: 1.2%;
+    }
+    
+    .email{
+        padding: 1%;
+        width: 30%;
+        height: 1%;
+        font-size: 15px;
+        margin-bottom: 1.2%;
+    }
+    
+    .message{
+        padding: 1%;
+        width: 30%;
+        height: 100px;
+        font-size: 15px;
+        margin-bottom: 1.2%;
+    }
+    
+    .send{
+        width: 31.8%;
+        font-size: 15px;
+        height: 40px;
+        margin-bottom: 1%;
+    }
+    
+    .map{
+        margin-right: 0.8%;
+    }
+    
+    .otherInfo{
+        margin-top: 130px;
+        font-size: 12px;
+    }
+    
+    .ccs{
+        padding-top: 10px;
+        padding-bottom: 3%;
+        padding-left: 1%;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+    
+    .item{
+        margin-top: -153px;
+        flex-basis: 50%;
+        flex: 1;
+        height: 48%;
+        margin-left: 45%;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    
+    .item + .item{
+        margin-left: 5%;
+    }
+    
+    .material{
+        margin-top: -165px;
+        line-height: 30px;
+        margin-left: 3.2%;
+        margin-bottom: 3%;
+        font-size: 15px;
+    }
+
+    .icons{
+        margin-top: -140px;
+        margin-right: 2.5%;
+    }
+    
+    .icon{
+        margin-top: -5%;
+        margin-right: 1px;
+        margin-left: 10px;
+    }
+    
+    .googleMap{
+        height: 442px; 
+        width: 65%;
+        margin-top: -455px;
+    }
+}
