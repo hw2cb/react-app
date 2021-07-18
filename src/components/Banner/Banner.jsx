@@ -12,9 +12,8 @@ const Banner = () => {
                         <div className={styles.title2}>IT-технологиям!</div>
                     </div>
                     <div className={styles.btn}>
-                        <button>
-                            Перейти к курсам
-                        </button>
+                        <a href="#" className={styles.buttonBanner}>Перейти к курсам</a>
+   
                     </div>
                 </div>
             </div>

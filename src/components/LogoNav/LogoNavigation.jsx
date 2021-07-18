@@ -8,7 +8,7 @@ const LogoNav = () => {
             <div className={StyleCss.content}>
                 <div className={StyleCss.logo}>
                     <div className="logo-image">
-                        <img src={logo} />
+                        <img className={StyleCss.logoImage} src={logo} />
                     </div>
                     <div className={StyleCss.titleLogo}>
                         Детская компьютерная
