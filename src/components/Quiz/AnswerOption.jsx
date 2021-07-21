@@ -4,12 +4,12 @@ import { Spring, animated } from 'react-spring';
 const AnswerOption = (props) => { 
   return (
     <Spring
-            from={{opacity:0, transform:"translateY(40rem"}}
-            to={{opacity:1, transform:"translateY(0rem"}}
-            config={{duration:800}}
+            from = {{opacity: 0, transform: "translateY(40rem"}}
+            to = {{opacity: 1, transform: "translateY(0rem"}}
+            config = {{duration: 800}}
         >
           {prop=>(
-            <animated.li style={prop} className = "answerOption">
+            <animated.li style = {prop} className = "answerOption">
               <input
                 type = "button"
                 className = {StyleCss.radioCustomButton}

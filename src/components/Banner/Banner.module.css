@@ -63,17 +63,21 @@
     align-self: center;
     padding-bottom: 230px;
 }
+
 @media only screen and (max-width : 950px) {
     .title1{
         font-size: 18px;
     }
+
     .title2{
-        font-size:24px;
+        font-size: 24px;
     }
+
     .buttonBanner{
         font-size: 10px;
-        padding:5px 40px;
+        padding: 5px 40px;
     }
+    
     .btn{
         margin-top: 0;
     }
