@@ -108,7 +108,7 @@ const Footer = () => {
                     <div className = {StyleCss.btn}><button disabled = {!formValid} className = {StyleCss.send}><a href = "#"> Отправить </a></button></div>
                 </div> 
                 <div className = {StyleCss.map}>
-                    <iframe className={StyleCss.googleMap} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.1795644341416!2d45.97817544359028!3d51.529280791684315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4114c6ffe4b70d19%3A0x6c18bdda3ec6451c!2z0JTQtdGC0YHQutCw0Y8g0LrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINGI0LrQvtC70LA!5e0!3m2!1sru!2sru!4v1625658612442!5m2!1sru!2sru" width="60%" height="510" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+                    <iframe className = {StyleCss.googleMap} src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.1795644341416!2d45.97817544359028!3d51.529280791684315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4114c6ffe4b70d19%3A0x6c18bdda3ec6451c!2z0JTQtdGC0YHQutCw0Y8g0LrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINGI0LrQvtC70LA!5e0!3m2!1sru!2sru!4v1625658612442!5m2!1sru!2sru" width = "60%" height = "510" frameborder = "0" allowfullscreen = "" aria-hidden = "false" tabindex = "0"></iframe>    
                 </div>
             </div>
             <div className = {StyleCss.other}>

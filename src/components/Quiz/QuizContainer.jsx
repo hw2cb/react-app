@@ -74,7 +74,7 @@ class QuizContainer extends React.Component {
         if (result.length === 1) {
             this.setState({ result: result[0] });
         } else {
-            this.setState({ result });
+            this.setState({ result: 'wut?' });
         }
     }
 

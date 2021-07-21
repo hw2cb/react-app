@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import StyleCss from './quiz.module.css';
 import { Spring, animated } from 'react-spring';
+
 const Question = (props) => {
     return (
         <Spring

@@ -1,0 +1,43 @@
+.cards {
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #FBFBFB;*/
+}
+
+.anchor {
+    color: #72B236;
+}
+
+.card {
+    border-color: #ADADAD;
+    margin: 10%;
+}
+
+.anchor {
+    border-color: #72B236;
+    padding: 5px 15px 7px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #8CC754;
+    transition: .2s;
+}
+
+.anchor:hover {
+    background-color: #8CC754;
+    color: white;
+    transition: .2s;
+}
+
+.anchor:hover {
+    color: white;
+}
+
+.more {
+    color: #8CC754;
+    margin-left: 1%;
+}
+
+.more:hover {
+    color: #DB538C;
+}
