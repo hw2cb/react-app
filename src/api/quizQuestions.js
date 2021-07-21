@@ -15,7 +15,7 @@ const quizQuestions = [
                 content: "Ребёнку 13-17 лет."
             }
         ]
-    }/*,
+    },
     {
         question: "Ходил ли ребёнок уже в ДКШ?",
         answers: [
@@ -89,7 +89,7 @@ const quizQuestions = [
                 content: "Нет, не хотел бы."
             }
         ]
-    }*/
+    }
 ];
 
 export default quizQuestions;
