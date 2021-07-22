@@ -49,7 +49,7 @@ function Result(props) {
                 <div className = {StyleCards.card}>
                     <img className = {StyleCards.cardImg} src = {card2} />
                     <div>
-                        <p className = {StyleCards.name}> Разработка компьютерных игр (2 год) </p>
+                        <p className = {StyleCards.name}> Разработка компьютерных игр (2 года) </p>
                     </div>
                     <div className = {StyleCards.other}>
                         <div className = {StyleCards.forWho}>
@@ -68,7 +68,7 @@ function Result(props) {
                 <div className = {StyleCards.card}>
                     <img className = {StyleCards.cardImg} src = {card3} />
                     <div>
-                        <p className = {StyleCards.name}> Основы программирования в программе 3D’s Max (1 год) </p>
+                        <p className = {StyleCards.name}> Основы программирования в программе 3D’s Max (2 года) </p>
                     </div>
                     <div className = {StyleCards.other}>
                         <div className = {StyleCards.forWho}>
